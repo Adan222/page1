@@ -1,10 +1,9 @@
 body{
-    width: 1050px;
-    height: 1372;
     margin: 0px;
     background-image: url(img/bg-combine.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .container{
@@ -17,10 +16,97 @@ body{
     flex-direction: row;
 }
 
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.top_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    opacity: 0.5;
+}
+
+/*================================================*/
+
 .in_register, .in_send_email, .in_sing_in, .in_recovery, .in_subscribe{
     background: #f4f4f4;
+    border-radius: 2px;
+}
+
+.register, .send_email, .sing_in, .recovery, .subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    width: 420px;
+    height: 460px;
+}
+
+.in_register{
+    width: 382px;
+    height: 421px;
+}
+
+.send_email{
+    width: 420px;
+    height: 536px;  
+}
+
+.in_send_email{
+    width: 384px;
+    height: 496px;
+}
+
+.sing_in{
+    width: 420px;
+    height: 260px;  
+}
+
+.in_sing_in{
+    width: 382px;
+    height: 218px;
+}
+
+.recovery{
+    width: 420px;
+    height: 260px;  
+}
+
+.in_recovery{
+    width: 382px;
+    height: 218px;  
+}
+
+.subscribe{
+    width: 417px;
+    height: 196px;  
+}
+
+.in_subscribe{
+    width: 381px;
+    height: 156px;  
 }
 
 .border{
     background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
 }
+
+/*================================================*/
