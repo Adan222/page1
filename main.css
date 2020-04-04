@@ -1,0 +1,26 @@
+body{
+    width: 1050px;
+    height: 1372;
+    margin: 0px;
+    background-image: url(img/bg-combine.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cols{
+    display: flex;
+    flex-direction: row;
+}
+
+.in_register, .in_send_email, .in_sing_in, .in_recovery, .in_subscribe{
+    background: #f4f4f4;
+}
+
+.border{
+    background-color: rgba(0, 0, 0, 0.25);
+}
