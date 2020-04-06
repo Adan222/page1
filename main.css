@@ -4,6 +4,10 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -14,6 +18,10 @@ body{
 .cols{
     display: flex;
     flex-direction: row;
+}
+
+.col{
+    margin: 40px;
 }
 
 h1{
@@ -45,6 +53,37 @@ img{
     align-items: center;
     font-size: 16px;
     font-weight: 400;
+    cursor: pointer;
+}
+
+.checkbox{
+    cursor: pointer;
+}
+
+.button{
+    border: 1px solid #3b9a00;
+    background-image: linear-gradient(#addc54,#7ec31f );
+    width: 337px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: 0.559px 0.829px 0px rgba(81, 133, 14, 0.004);
+    color: #ffffff;
+}
+
+.small_button{
+    width: 137px;
+    height: 39px; 
+    font-size: 19px;
+}
+
+.disabled{
+    background-image: linear-gradient(#cde4b0, #abd182);abd182
+
+}
+
+.no_thanks{
+    background-image: linear-gradient(#f03747, #f76f7f);
 }
 
 /*================================================*/
