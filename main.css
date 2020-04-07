@@ -3,7 +3,7 @@ body{
     background-image: url(img/bg-combine.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web';
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +51,7 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     cursor: pointer;
 }
@@ -62,6 +62,7 @@ img{
 
 .button{
     border: 1px solid #3b9a00;
+    border-radius: 3px;
     background-image: linear-gradient(#addc54,#7ec31f );
     width: 337px;
     height: 46px;
@@ -78,12 +79,64 @@ img{
 }
 
 .disabled{
-    background-image: linear-gradient(#cde4b0, #abd182);abd182
-
+    background-image: linear-gradient(#cde4b0, #abd182);
+    margin-left: 43px;
 }
 
 .no_thanks{
-    background-image: linear-gradient(#f03747, #f76f7f);
+    background-image: linear-gradient(#f76f7f, #f03747);
+    margin-left: 43px;
+    border-color: #a2202a;
+}
+
+.form{
+    width: 336px;
+    height: 37px;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form:first-child{
+    margin-top: 20px;
+}
+
+.input{
+    width: 200px;
+    height: 32px;
+    font-size: 16px;
+    color: #afafaf;
+    margin-left: 30px;
+    border: none;
+}
+
+.input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #afafaf;
+    opacity: 1;
+}
+
+.line{
+    width: 1px;
+    height: 28px;
+    background-color: #e4e4e4;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin: 10px;
+    width: 35px;
+    height: 37px;
 }
 
 /*================================================*/
@@ -92,9 +145,7 @@ img{
     border-radius: 2px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
 }
 
 .register, .send_email, .sing_in, .recovery, .subscribe{
