@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 1;
 }
 
 .container{
@@ -53,7 +54,7 @@ img{
     border: 1px solid #3b9a00;
     border-radius: 3px;
     background-image: linear-gradient(#addc54,#7ec31f );
-    width: 337px;
+    width: 336px;
     height: 46px;
     font-size: 24px;
     font-weight: 400;
@@ -69,12 +70,12 @@ img{
 
 .disabled{
     background-image: linear-gradient(#cde4b0, #abd182);
-    margin-left: 43px;
+    margin-left: 62px;
 }
 
 .no_thanks{
     background-image: linear-gradient(#f76f7f, #f03747);
-    margin-left: 43px;
+    margin-left: 62px;
     border-color: #a2202a;
 }
 
@@ -82,7 +83,7 @@ img{
     width: 336px;
     height: 228px;
     border: 1px solid #c6c6c6;
-    border-radius: 3px;
+    border-radius: 2px;
     margin-bottom: 20px;
 }
 
@@ -171,7 +172,8 @@ input[type=checkbox]{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+    margin-right: 10px;
 }
 
 .is_checked{
@@ -183,12 +185,32 @@ input[type=checkbox]{
 }
 
 .check{
+    width: 336px;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 20px;
     font-weight: 400;
     cursor: pointer;
+    font-size: 17px;
+    color: #afafaf;
+    margin-bottom: 20px;
+}
+
+.check_row{
+    width: 199px;
+    margin-bottom: 10px;
+}
+
+.row_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap{
+    width: 62px;
 }
 
 /*================================================*/
