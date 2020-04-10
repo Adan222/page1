@@ -1,18 +1,19 @@
 window.addEventListener('DOMContentLoaded',function(){
     let check_cont = document.querySelectorAll(".check");
-    let is_checked = [false,false,false];
+    let is_checked = [false,false,false];       //Array for all 3 checkbox 
 
-    for(let i=0;i<=check_cont.length;i++){
+    for(let i=0;i<=2;i++){
         check_cont[i].addEventListener("click", function(){
-            is_checked[i] = !is_checked[i];
-            let child = check_cont[i].children;
-            child[0].checked = is_checked;
-            console.log(i,is_checked[i]);
-            if(is_checked[i]==true){
-            child[1].children[0].style.display = "block";
-            }
-            else{
-                child[1].children[0].style.display = "none";
+            is_checked[i] = !is_checked[i];   
+
+            let child = check_cont[i].querySelector(".is_checked");
+            child.checked = is_checked;     //change checkbox 
+        
+            //Display dot in checkbox
+            if(is_checked[i]==true){            
+                child.style.display = "block";      
+            }else{
+                child.style.display = "none";
             }
         });
     }
