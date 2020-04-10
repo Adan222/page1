@@ -126,10 +126,6 @@ textarea{
     text-overflow: ellipsis;
 }
 
-option{
-    width: 100px;
-}
-
 .input:focus{
     outline: none;
 }
@@ -207,10 +203,6 @@ input[type=checkbox]{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.gap{
-    width: 62px;
 }
 
 /*================================================*/
