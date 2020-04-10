@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded',function(){
     let check_cont = document.querySelectorAll(".check");
     let is_checked = [false,false,false];       //Array for all 3 checkbox 
 
-    for(let i=0;i<=2;i++){
+    for(let i=0;i<=check_cont.length-1;i++){
         check_cont[i].addEventListener("click", function(){
             is_checked[i] = !is_checked[i];   
 

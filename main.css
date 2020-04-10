@@ -9,6 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     line-height: 1;
+    text-shadow: 1px 1px 0px rgba(81, 133, 14, 0.004);
+
 }
 
 .container{
@@ -37,6 +39,7 @@ h1{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    opacity: 0.4;
 }
 
 .logo{
@@ -44,9 +47,6 @@ h1{
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
-}
-
-img{
     opacity: 0.4;
 }
 
@@ -58,7 +58,6 @@ img{
     height: 46px;
     font-size: 24px;
     font-weight: 400;
-    text-shadow: 0.559px 0.829px 0px rgba(81, 133, 14, 0.004);
     color: #ffffff;
 }
 
@@ -88,8 +87,8 @@ img{
 }
 
 textarea{
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
     border: none;
     resize: none;
     padding: 10px;
@@ -126,7 +125,7 @@ textarea{
     text-overflow: ellipsis;
 }
 
-.input:focus{
+input:focus{
     outline: none;
 }
 
@@ -203,8 +202,10 @@ input[type=checkbox]{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-
+    
 /*================================================*/
 .in_register, .in_send_email, .in_sing_in, .in_recovery, .in_subscribe{
     background: #f4f4f4;
