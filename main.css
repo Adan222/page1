@@ -1,16 +1,13 @@
 body{
     margin: 0px;
     background-image: url(img/bg-combine.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Titillium Web';
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     line-height: 1;
     text-shadow: 1px 1px 0px rgba(81, 133, 14, 0.004);
-
 }
 
 .container{
@@ -35,7 +32,6 @@ h1{
 
 .top_logo{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
@@ -93,6 +89,7 @@ textarea{
     resize: none;
     padding: 10px;
     font-size: 16px;
+    background-color: #f4f4f4;
 }
 
 .form{
